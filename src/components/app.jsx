@@ -1,6 +1,6 @@
 import React from 'react';
 import CityList from '../containers/city_list';
-
+import ActiveCity from '../containers/active/city';
 const cities = [
   { name: 'Paris', address: '16 Villa Gaudelet, 75011 Paris', slug: 'paris' },
   { name: 'London', address: '14-22 Elder St, London E1 6BT', slug: 'london' },
@@ -11,6 +11,7 @@ const App = () => {
   return (
     <div className="app">
       <CityList cities={cities} />
+      <ActiveCity />
     </div>
   );
 };
