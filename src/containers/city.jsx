@@ -4,7 +4,7 @@ class City extends Component {
   render() {
     // console.log(this.props);
     return (
-      <li>{this.props.city.name}</li>
+      <li className="list-group-item">{this.props.city.name}</li>
     );
   }
 }

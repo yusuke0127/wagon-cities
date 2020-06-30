@@ -8,7 +8,7 @@ class CityList extends Component {
       <div className="cities">
         <ul className="list-group">
           {this.props.cities.map((city, index) => {
-            return <City city={city} index={index} />;
+            return <City city={city} index={index} key={city.name} />;
           })
           }
         </ul>
