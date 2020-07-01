@@ -13,7 +13,7 @@ import selectedCityReducer from './reducers/selected_city_reducer';
 // State and reducers
 const reducers = combineReducers({
   cities: citiesReducer,
-  selectedCity: selectedCityReducer
+  activeCity: selectedCityReducer
   // changeMe: (state = null, action) => state
 });
 
