@@ -28,7 +28,7 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps(dispatch) {
   return bindActionCreators(
-    { setActiveCity: setActiveCity }, dispatch);
+    { setActiveCity }, dispatch);
 }
 export default connect(
   mapStateToProps, mapDispatchToProps)(City);
